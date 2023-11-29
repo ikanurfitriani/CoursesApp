@@ -1,9 +1,13 @@
+// Nama package dari data yang dibuat dalam aplikasi
 package com.ikanurfitriani.courses.data
 
+// Import library yang akan digunakan
 import com.ikanurfitriani.courses.R
 import com.ikanurfitriani.courses.model.Topic
 
+// Membuat objek Datasource
 object DataSource {
+    // Menampilkan daftar topik, angka dan gambarnya
     val topics = listOf(
         Topic(R.string.architecture, 58, R.drawable.architecture),
         Topic(R.string.crafts, 121, R.drawable.crafts),
